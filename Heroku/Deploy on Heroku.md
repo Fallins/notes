@@ -36,7 +36,8 @@ heroku addons
 ![](https://i.imgur.com/3hKOLmP.png)
 
 ### postgres
-check your postgres infos
+check your postgres infos.
+And the Add-on property is your db url.(`postgresql-adjacent-33845`)
 ```shell=
 heroku pg:info
 ```
@@ -54,6 +55,9 @@ heroku git:remote -a newname
 # can use git remote to see all remote you have
 git remote
 ```
+
+### How to deploy a create-react-app with an Express backend to Heroku
+[refference](https://medium.com/@chloechong.us/how-to-deploy-a-create-react-app-with-an-express-backend-to-heroku-32decfee6d18)
 
  
  
